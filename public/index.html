@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PT7PC4');</script> -->
+      <!-- End Google Tag Manager -->
+  
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,maximum-scale=1">
+
+    <meta name="description" content="<%= process.env.VUE_APP_DESC %>">
+    <meta name="keywords" content="<%= process.env.VUE_APP_KEYWORDS %>">
+    <!-- <meta name="googlebot-news" content="index, follow" />
+    <meta  name="googlebot" content="index, follow" />
+    <meta name="author" content="Kompas Cyber Media">
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="id" />
+    <meta name="geo.country" content="id" />
+    <meta http-equiv="content-language" content="In-Id" />
+    <meta name="geo.placename" content="Indonesia" /> -->
+
+    <!-- S:fb meta -->
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="<%= process.env.VUE_APP_PARENT_IMG %>" />
+    <meta property="og:title" content="<%= process.env.VUE_APP_TITLE %>" />
+    <meta property="og:description" content="<%= process.env.VUE_APP_DESC %>">
+    <meta property="og:url" content="https://www.kompas.com/" />
+    <meta property="og:site_name" content="KOMPAS.com" />
+    <meta property="fb:app_id" content="324557847592228" />
+    <!-- e:fb meta -->
+
+    <!-- S:twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kompascom" />
+    <meta name="twitter:creator" content="@kompascom">
+    <meta name="twitter:title" content="<%= process.env.VUE_APP_TITLE %>" />
+    <meta name="twitter:description" content="<%= process.env.VUE_APP_DESC %>" />
+    <meta name="twitter:image" content="<%= process.env.VUE_APP_PARENT_IMG %>" />
+    <!-- E:twitter card -->
+
+    <style>
+      @font-face {
+      font-family: "Roboto Slab";
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local("Roboto Slab"),
+        url(https://fonts.gstatic.com/s/robotoslab/v22/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rj.woff2)
+          format("woff2");
+    }
+    @font-face {
+      font-family: "Mukta";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Mukta"),
+        url(https://fonts.gstatic.com/s/mukta/v12/iJWKBXyXfDDVXbnBrXw.woff2)
+          format("woff2");
+    }
+    </style>
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="canonical" href="<%= BASE_URL %>" />
+    <title><%= process.env.VUE_APP_TITLE %></title>
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <!-- <script>var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script> -->
+
+  </head>
+  <body>
+    <!-- <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PT7PC4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+
+    <noscript>
+      <strong>We're sorry but <%= process.env.VUE_APP_TITLE %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
